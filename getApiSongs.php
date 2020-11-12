@@ -1,6 +1,6 @@
 <?php
-$search =$_POST['search'];
-$url = 'https://api.songkick.com/api/3.0/search/locations.json?query='.$search.'&apikey=RmJpmyc8RlY74n1I';
+
+$url = 'https://api.songkick.com/api/3.0/search/locations.json?query='London'&apikey=RmJpmyc8RlY74n1I';
 
 $data = file_get_contents($url);
 
