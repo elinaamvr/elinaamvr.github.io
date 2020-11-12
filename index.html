@@ -23,6 +23,21 @@
 		</div>
 		<footer>
 			 <button type="button">Click Me!</button> 
+			<input type="button" name="test" id="test" value="RUN" /><br/>
+
+<?php
+
+function testfun()
+{
+   echo "Your test function on button click is working";
+}
+if(array_key_exists('test',$_POST)){
+   testfun();
+}
+?>
+			
+			
+			
     		<ul>
         		<li><a href="">email</a></li>
         		<li><a href="">github.com</a></li>
