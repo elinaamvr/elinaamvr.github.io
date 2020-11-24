@@ -3,7 +3,7 @@
 class Database{
   
     //Database credentials
-    private $host = "localhost";
+    private $host = "nireas.it.teithe.gr:3306";
     private $db_name = "webeng20g2";
     private $username = "webeng20g2";
     private $password = "2021g2";
